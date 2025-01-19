@@ -35,16 +35,6 @@ Type exit
 `docker ps -a
 `
 
-#   Run command without using SUDO
-`
-sudo usermod -aG docker your_username
-`
-In place of "your_username" write your system username which you can get using `whoami` in terminal.
-Now Restart docker again
-`
-sudo systemctl restart docker
-`
-
 ### Important Docker Commands:
 
 (1) List All Docker Images In host Machine (Your System)

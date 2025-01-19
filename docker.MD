@@ -35,10 +35,6 @@ Type exit
 `docker ps -a
 `
 
-# Passing in env variables
-`sudo docker run -p 3000:3000 -e DATABASE_URL="postgres://avnadmin:AVNS_EeDiMIdW-dNT4Ox9l1n@pg-35339ab4-harkirat-d1b9.a.aivencloud.com:25579/defaultdb?sslmode=require" image_name
-`
-
 #   Run command without using SUDO
 `
 sudo usermod -aG docker your_username
